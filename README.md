@@ -30,3 +30,5 @@ calendar_bot/
 - Создание события:                 `curl -X POST http://localhost:5000/create_event -H "Authorization: Bearer !!!ТОКЕН!!!" -H "Content-Type: application/json" -d "{\"participants_usernames\":[\"Боб\"],\"start\":\"2025-05-01T10:00:00\",\"end\":\"2025-05-01T11:00:00\",\"title\":\"Встреча\"}"`
 
 - Получение собтиый пользователя:   `curl -X GET http://localhost:5000/events -H "Authorization: Bearer !!!ТОКЕН!!!"`
+
+Важно в командах заменить `!!!ТОКЕН!!!` на реально выданный токен.
